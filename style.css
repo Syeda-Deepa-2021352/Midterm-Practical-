@@ -33,7 +33,7 @@ html {
     padding: 14px 16px;
     text-decoration: none;
   }
-  li a:hover {
+ li a:hover {
     background-color: #111;
   }
   #logo {
@@ -46,4 +46,126 @@ html {
     align-content: space-between;
     color: #fff;
     gap: 1.5rem;
+  }
+  .footer-container {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .welcome {
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .welcome h1 span {
+    letter-spacing: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contact {
+    font-size: 1.5rem;
+  }
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #414141;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .product img {
+    height: 350px;
+    width: 350px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+  .product-info p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+  }
+  
+  .product-page-container {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 55% 35%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .product-page-container img {
+    border-radius: 28px;
+  }
+  .product-page-container img {
+    max-height: 400px;
+    padding: 10px;
+  }
+  .images {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 45% 45%;
+  }
+  
+  .first-image {
+    grid-column-start: span 3;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 2rem;
+  }
+  
+  input[type="submit"] {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+  }
+  form {
+    padding: 0 40px;
+  }
+  .title {
+    margin: 0 auto;
   }
